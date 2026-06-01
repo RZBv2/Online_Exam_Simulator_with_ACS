@@ -1,4 +1,4 @@
-# 🎯 Online Exam System (OES)
+# 🎯 Online Exam Simulator with Anti-Cheat System (OES-ACS)
 ## Next-Gen Secure Assessment Platform
 
 > **⚠️ PROPRIETARY & CONFIDENTIAL** — This is a private project. Unauthorized copying, distribution, or reuse is strictly prohibited.
@@ -7,7 +7,7 @@
 
 ## ✨ Overview
 
-**Online Exam System** is a cutting-edge, feature-rich examination management platform built with Python. Designed for educators and institutions that demand security, precision, and an exceptional user experience.
+**Online Exam Simulator with Anti-Cheat System (OES-ACS)** is a cutting-edge, feature-rich examination management platform built with Python. Designed for educators and institutions that demand security, precision, and an exceptional user experience.
 
 This system combines powerful anti-cheat mechanisms with an intuitive, modern UI to deliver a seamless testing environment that protects academic integrity while keeping test-takers engaged.
 
@@ -81,9 +81,62 @@ pip install keyboard pywin32
 python main.py
 ```
 
+> **Note:** Demo credentials 
+
+=======================================
+        Username  |  Password
+        -----------------------
+        tcr111    |  demo123
+        rzb       |  101011
+=======================================
+
+
+## � How to Use
+
+### Admin Login
+1. Launch the application with `python main.py`
+2. Enter admin credentials on the login screen
+3. Access the admin dashboard to manage exams and users
+
+### Creating an Exam
+1. Navigate to "Create Exam" in the admin panel
+2. Enter exam details:
+   - Exam name and description
+   - Duration (in minutes)
+   - Passing score threshold
+3. Add questions from the question bank
+4. Configure difficulty levels and question types
+5. Save and publish the exam
+
+### Managing Candidates
+1. Go to "Candidate Management" section
+2. Register new candidates or import from CSV
+3. Assign exams to specific candidates
+4. Set exam start and end times
+5. Monitor candidate progress in real-time
+
+### Candidate Exam Experience
+1. Log in with your credentials
+2. Select and start your assigned exam
+3. Answer questions within the time limit
+4. Submit answers for instant grading
+5. View your score and detailed results
+
+### Anti-Cheat Features
+- The system monitors window switching and suspicious activity
+- Keyboard shortcuts are tracked for unauthorized inputs
+- Real-time alerts notify proctors of potential violations
+- All activities are logged for audit purposes
+
+### Database Management
+- Exam results are stored securely in SQLite
+- Password hashes use PBKDF2-HMAC-SHA256 encryption
+- Access logs maintain a complete audit trail
+- Backup your database regularly for data recovery
+
 ---
 
-## 📊 Architecture Highlights
+## �📊 Architecture Highlights
 
 - **Color-Coded System** — Professional palette with primary, secondary, success, danger, and warning states
 - **Modular Design** — Extensible class-based architecture for easy customization
