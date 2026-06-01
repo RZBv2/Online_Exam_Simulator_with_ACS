@@ -176,8 +176,9 @@ This software is provided for authorized use only. No license or rights are gran
 ## 👨‍💼 Support & Contact
 
 For inquiries about legitimate use or licensing:
+- **Email:** [Send e-mail](mailto:its.rzb@gmail.com)
 - **Status:** Private Project — Not Available for Public Use
-- **Collaboration:** By invitation only
+- **Collaboration:** [Send your proposal](mailto:its.rzb@gmail.com)
 
 ---
 
