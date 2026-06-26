@@ -68,11 +68,9 @@ This system combines powerful anti-cheat mechanisms with an intuitive, modern UI
 ## 🔧 Quick Start
 
 ### Setup
-```bash
-# Run the setup batch file
-setup.bat
 
-# Or manually install optional dependencies
+
+# Manually install optional dependencies
 pip install keyboard pywin32
 ```
 
